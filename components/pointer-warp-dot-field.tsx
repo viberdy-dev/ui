@@ -28,9 +28,13 @@ export function PointerWarpDotField({
   }, [spacing, radius, strength, connect]);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    const ctx = canvas?.getContext("2d");
-    if (!canvas || !ctx) return;
+    const el = canvasRef.current;
+    const context = el?.getContext("2d");
+    if (!el || !context) return;
+    // Re-bound so resize() and draw() below, hoisted functions, see them as
+    // non-null under strict TypeScript.
+    const canvas: HTMLCanvasElement = el;
+    const ctx: CanvasRenderingContext2D = context;
 
     // Cap DPR at 2 — beyond that the pixel count grows faster than the
     // visible gain, and this is a decorative layer.

@@ -38,8 +38,11 @@ export function AsciiHalftoneCanvas({
     // willReadFrequently tells the browser to keep this canvas on the CPU.
     // Without it, a GPU-backed canvas has to be read back every frame, which
     // is far slower for a getImageData-per-frame workload like this one.
-    const ctx = canvas.getContext("2d", { willReadFrequently: true });
-    if (!ctx) return;
+    const context = canvas.getContext("2d", { willReadFrequently: true });
+    if (!context) return;
+    // Re-bound so render() below, a hoisted function, sees it as non-null
+    // under strict TypeScript.
+    const ctx: CanvasRenderingContext2D = context;
 
     let t = 0;
     let last = 0;
