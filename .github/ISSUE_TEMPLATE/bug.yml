@@ -1,0 +1,23 @@
+name: Component bug
+description: Something in a component doesn't work or doesn't look right
+labels: [bug]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      description: The name you installed, e.g. card-carousel-3d
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: input
+    id: stack
+    attributes:
+      label: Stack
+      description: Framework and version, React version, Tailwind version, browser
+      placeholder: Next.js 16, React 19.2, Tailwind 4.2, Chrome 141

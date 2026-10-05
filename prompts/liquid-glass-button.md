@@ -1,0 +1,19 @@
+# Liquid Glass Button: AI prompt
+
+Paste this into Cursor, Claude Code, v0, Lovable or Bolt to generate **Liquid Glass Button** from scratch, or edit it first to restyle it. The finished code is [components/liquid-glass-button.tsx](../components/liquid-glass-button.tsx); the live demo is on [viberdy.dev](https://viberdy.dev/library/liquid-glass-button?ref=github).
+
+````text
+Create a React + Tailwind client component, LiquidGlassButton: a pill of "liquid glass" in the style of Apple's 2025 material, which bends the backdrop instead of only blurring it.
+
+Props: children, href (renders an <a>; sanitise it: strip tabs and newlines, reject any backslash, allow http(s):, mailto:, tel:, and relative paths starting with / # or ? but not //, otherwise "#"), onClick, tone ("dark" | "light", default dark), surface ("clear" | "frost", default clear), size ("md" 44px tall, 20px padding, 15px text | "lg" 56px, 28px, 17px), tint (optional "#rrggbb", validated with a regex and converted to r,g,b, never interpolated raw), refraction (0–2, default 1), icon (trailing ↗ that nudges up-right on hover, default true), className.
+
+Surface: fill rgba(10,10,18,0.22) on dark, a dimming layer that keeps the label legible over bright content, or rgba(255,255,255,0.34) on light (or the tint at 0.15 / 0.2); backdrop-filter blur(3px) for clear or blur(14px) for frost, then saturate(185%) brightness(1.08 dark / 1.04 light), with the -webkit- copy. Box shadow: inset 0 1px 0 white at 0.55 (0.8 on light), inset 0 -1px 0 white at 0.18, and 0 12px 40px black at 0.28 (0.12 on light). Text white with a text shadow (0 1px 12px black at 0.4) on dark, #111 on light; semibold, tracking −0.01em.
+
+Refraction: build an SVG <filter> with a sanitised useId (alphanumerics only) holding an feImage (the displacement map) and an feDisplacementMap (in SourceGraphic, in2 the map, R for x and G for y, color-interpolation-filters sRGB). Generate the map on a canvas at the button's exact pixel size: for each pixel take the signed distance to a rounded rectangle whose radius is half the height; inside a narrow bezel of min(0.24·h, 12px) from the rim, offset toward the centre along the inward normal with magnitude (1 − t/bezel)², encoded as red = 128 + 127·dx and green = 128 + 127·dy. Set the displacement scale to 28 × refraction. Only in Chromium (detect navigator.userAgentData.brands containing "Chromium") set backdrop-filter to "url(#id) " followed by the base filter; everywhere else keep the base filter, because Safari and Firefox drop a backdrop-filter that contains url(). Rebuild the map with a ResizeObserver.
+
+Light: track the pointer into CSS variables --lgx and --lgy (percent) and --lgo (1 while hovering, 0 on leave) written straight to the element's style on pointermove AND pointerdown (a touch tap sends no move first), no React state. A 1px rim layer (a padded span masked to its border with mask-composite exclude and the -webkit- xor fallback) paints a 120px radial gradient at the pointer, white at 0.25 + 0.6·--lgo, fading to 0.14. A specular span paints an 80%×140% radial highlight at the pointer, white 0.28 to transparent, screen-blended, at opacity 0.35 + 0.65·--lgo. Press glow: a 40px circle positioned at --lgx/--lgy (translated −50%), a radial white 0.4 to transparent, at scale 0.5 and opacity 0, that grows to scale 7 and full opacity over 200ms while active, so the light starts under the finger and spreads.
+
+Motion: press squashes it like gel (scale-x 0.98, scale-y 0.97 over 100ms) and it springs back over 300ms with cubic-bezier(0.34, 1.4, 0.64, 1). Visible focus ring: 2px white at 80% with an offset. Rounded-full, overflow hidden, isolate, select-none.
+
+Output one self-contained "use client" TSX file with no dependencies beyond React. Build strings with + rather than template literals.
+````

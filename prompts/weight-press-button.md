@@ -1,0 +1,11 @@
+# Weight Press Button: AI prompt
+
+Paste this into Cursor, Claude Code, v0, Lovable or Bolt to generate **Weight Press Button** from scratch, or edit it first to restyle it. The finished code is [components/weight-press-button.tsx](../components/weight-press-button.tsx); the live demo is on [viberdy.dev](https://viberdy.dev/library/weight-press-button?ref=github).
+
+````text
+Build a React + Tailwind button, `WeightPressButton({ children, href, onClick, type, variant, size, disabled, ariaLabel, ariaPressed, className })`.
+
+A pill in Inter Tight at -0.01em. States: rest (weight 500, the two-layer shadow), hover (560, translateY(-1px), the ambient shadow widened to 0 30px 56px -14px at 16%), pressed (680, translateY(1px) scale(0.985), the ambient collapsed to 0 6px 12px -8px and a darker contact). Into hover and press in 160ms; back to rest with a 420ms cubic-bezier(0.34, 1.56, 0.64, 1) spring. The label renders twice in one grid cell, the hidden copy at 680, so the width never changes. Inks: solid (#141412 on paper), light (white with a hairline and the shadow), outline (a 22% hairline, no shadow).
+
+Modern Minimal grammar: a paper-white room, ground #f5f5f2 (surfaces #ffffff that lift, a recessed well #ecebe6), ink #141412 at 92/60/38% (never grey-400 body copy), hairlines at 8% and 14%; one light, dawn #ffa64d, only ever as light (the lamp's glow, a lit state), never as a fill. Shadows come from one light above in two layers: a contact 0 1px 2px rgba(20,20,18,0.06) and an ambient 0 24px 48px -12px rgba(20,20,18,0.1), both falling the same way; a pressed thing loses the ambient, a lifted one widens it. Type: Inter Tight through var(--font-inter-tight, "Inter Tight", ...) for display at 600 with -0.035em tracking and 0.98 leading (tracking tightens only at display sizes), Geist for reading at 16-17px/1.55, Geist Mono uppercase at 11-12px for readouts. Radii 12px controls (pills for buttons), 20px cards, 28px media. Motion: scroll binds values directly with no easing (a value moves exactly with the scroll, like scrubbing film); discrete hover and press states take 150-260ms with a spring back past rest; ambient loops 40s or more. Respect prefers-reduced-motion (ambient scenes hold still; scroll-bound values still follow the scroll, which the visitor drives). No dependencies beyond React.
+````

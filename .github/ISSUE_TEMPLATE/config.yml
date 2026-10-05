@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live demos
+    url: https://viberdy.dev/library?ref=github
+    about: Every component running live, with editable props

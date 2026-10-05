@@ -1,0 +1,11 @@
+# Light Lift Card: AI prompt
+
+Paste this into Cursor, Claude Code, v0, Lovable or Bolt to generate **Light Lift Card** from scratch, or edit it first to restyle it. The finished code is [components/light-lift-card.tsx](../components/light-lift-card.tsx); the live demo is on [viberdy.dev](https://viberdy.dev/library/light-lift-card?ref=github).
+
+````text
+Build a React + Tailwind card, `LightLiftCard({ title, kicker, body, kelvin, meta, href, className })`.
+
+On pointermove, x and y run -1 to 1 across the card: rotateX(-y x 2deg) rotateY(x x 2deg) translateY(-2px) in 900px perspective, 380ms; the contact shadow ${-x x 2}px ${1 + 1}px ${4}px at 5%, the ambient ${-x x 10}px ${36 - y x 6}px 72px -12px at 14% (at rest 0 1px 2px 6% and 0 24px 48px -12px 10%); the hairline from 8% to 14%; a soft-light sheen 420px wide at the pointer, 10% opacity. The plate: a table line at 62%, a wall gradient, a lamp orb whose radial gradient and glow take the colour of `kelvin` (a blackbody approximation in sRGB), a ceramic base with a contact shadow. Radius 20px, white on the paper ground.
+
+Modern Minimal grammar: a paper-white room, ground #f5f5f2 (surfaces #ffffff that lift, a recessed well #ecebe6), ink #141412 at 92/60/38% (never grey-400 body copy), hairlines at 8% and 14%; one light, dawn #ffa64d, only ever as light (the lamp's glow, a lit state), never as a fill. Shadows come from one light above in two layers: a contact 0 1px 2px rgba(20,20,18,0.06) and an ambient 0 24px 48px -12px rgba(20,20,18,0.1), both falling the same way; a pressed thing loses the ambient, a lifted one widens it. Type: Inter Tight through var(--font-inter-tight, "Inter Tight", ...) for display at 600 with -0.035em tracking and 0.98 leading (tracking tightens only at display sizes), Geist for reading at 16-17px/1.55, Geist Mono uppercase at 11-12px for readouts. Radii 12px controls (pills for buttons), 20px cards, 28px media. Motion: scroll binds values directly with no easing (a value moves exactly with the scroll, like scrubbing film); discrete hover and press states take 150-260ms with a spring back past rest; ambient loops 40s or more. Respect prefers-reduced-motion (ambient scenes hold still; scroll-bound values still follow the scroll, which the visitor drives). No dependencies beyond React.
+````

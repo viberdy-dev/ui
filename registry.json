@@ -1,0 +1,3582 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "viberdy",
+  "homepage": "https://viberdy.dev",
+  "items": [
+    {
+      "name": "card-carousel-3d",
+      "type": "registry:component",
+      "title": "3D Card Carousel",
+      "description": "Cards mounted on a rotating 3D ring — the active one faces forward, others recede.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/card-carousel-3d.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/card-carousel-3d.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/card-carousel-3d",
+        "prompt": "prompts/card-carousel-3d.md"
+      }
+    },
+    {
+      "name": "flip-card",
+      "type": "registry:component",
+      "title": "3D Flip Card",
+      "description": "A card that flips on a real Y-axis rotation to reveal a back face.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/flip-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/flip-card.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/flip-card",
+        "prompt": "prompts/flip-card.md"
+      }
+    },
+    {
+      "name": "anamorphic-heading",
+      "type": "registry:component",
+      "title": "Anamorphic Heading",
+      "description": "A heading that only reads from the right angle: its letters stand at different depths, scaled so they line up from straight ahead, and the view swings round to square as it scrolls in.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/anamorphic-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/anamorphic-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/anamorphic-heading",
+        "prompt": "prompts/anamorphic-heading.md"
+      }
+    },
+    {
+      "name": "animated-checkbox",
+      "type": "registry:component",
+      "title": "Animated Checkbox",
+      "description": "A checkbox whose checkmark draws itself in as a real SVG path animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/animated-checkbox.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/animated-checkbox.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/animated-checkbox",
+        "prompt": "prompts/animated-checkbox.md"
+      }
+    },
+    {
+      "name": "gradient-border-beam",
+      "type": "registry:component",
+      "title": "Animated Gradient Border Beam",
+      "description": "A light beam that continuously travels around a card's border.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/gradient-border-beam.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/gradient-border-beam.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/gradient-border-beam",
+        "prompt": "prompts/gradient-border-beam.md"
+      }
+    },
+    {
+      "name": "animated-stat-grid",
+      "type": "registry:component",
+      "title": "Animated Stat Grid",
+      "description": "A row of stat counters that count up together the moment they scroll into view.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/animated-stat-grid.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/animated-stat-grid.tsx"
+        }
+      ],
+      "categories": [
+        "sections"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/animated-stat-grid",
+        "prompt": "prompts/animated-stat-grid.md"
+      }
+    },
+    {
+      "name": "animated-tabs-indicator",
+      "type": "registry:component",
+      "title": "Animated Tabs Indicator",
+      "description": "A tab row where the active-state highlight slides between tabs instead of popping.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/animated-tabs-indicator.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/animated-tabs-indicator.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/animated-tabs-indicator",
+        "prompt": "prompts/animated-tabs-indicator.md"
+      }
+    },
+    {
+      "name": "ascii-density-nav",
+      "type": "registry:component",
+      "title": "ASCII Density Nav",
+      "description": "A nav whose active link is marked by a band of ASCII density: characters thicken through a ramp under the active link and flow to the next one on a spring, its peak in signal.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/ascii-density-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/ascii-density-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "dither-ascii"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/ascii-density-nav",
+        "prompt": "prompts/ascii-density-nav.md"
+      }
+    },
+    {
+      "name": "ascii-halftone-canvas",
+      "type": "registry:component",
+      "title": "ASCII Halftone Canvas",
+      "description": "Turns any canvas drawing into live ASCII art, sampled one pixel per glyph.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/ascii-halftone-canvas.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/ascii-halftone-canvas.tsx"
+        }
+      ],
+      "categories": [
+        "assets"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/ascii-halftone-canvas",
+        "prompt": "prompts/ascii-halftone-canvas.md"
+      }
+    },
+    {
+      "name": "ascii-resolve-heading",
+      "type": "registry:component",
+      "title": "ASCII Resolve Heading",
+      "description": "A heading that resolves from ASCII into type: its own letterforms redrawn in shape-matched glyphs step from coarse to fine as it comes into view, then a lens under the pointer shows the glyphs again.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/ascii-resolve-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/ascii-resolve-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "dither-ascii"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/ascii-resolve-heading",
+        "prompt": "prompts/ascii-resolve-heading.md"
+      }
+    },
+    {
+      "name": "assemble-reveal",
+      "type": "registry:component",
+      "title": "Assemble Reveal",
+      "description": "A reveal where parts assemble in 3D: each item starts at its own offset and turn deep in perspective and flies home on a spring with a slight overshoot, one after another, as it comes into view.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/assemble-reveal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/assemble-reveal.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/assemble-reveal",
+        "prompt": "prompts/assemble-reveal.md"
+      }
+    },
+    {
+      "name": "audio-wave-visualizer",
+      "type": "registry:component",
+      "title": "Audio Wave Visualizer",
+      "description": "A bouncing equalizer bar animation for audio/podcast/music UI.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/audio-wave-visualizer.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/audio-wave-visualizer.tsx"
+        }
+      ],
+      "categories": [
+        "assets"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/audio-wave-visualizer",
+        "prompt": "prompts/audio-wave-visualizer.md"
+      }
+    },
+    {
+      "name": "aura-booking-picker",
+      "type": "registry:component",
+      "title": "Aura Booking Picker",
+      "description": "A booking picker in three quiet steps, treatment, day and time, where the chosen time blooms into a grained halo, and a request that needs your handler before it confirms anything.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aura-booking-picker.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aura-booking-picker.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "diffused-glow"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aura-booking-picker",
+        "prompt": "prompts/aura-booking-picker.md"
+      }
+    },
+    {
+      "name": "aurora-drift-text",
+      "type": "registry:component",
+      "title": "Aurora Drift Text",
+      "description": "Display type filled with aurora light: three bands drift through the letters on slow loops, ray threads slide through them, and the brightest band leans toward the pointer when it comes near.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aurora-drift-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aurora-drift-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "aurora"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aurora-drift-text",
+        "prompt": "prompts/aurora-drift-text.md"
+      }
+    },
+    {
+      "name": "aurora-flow-nav",
+      "type": "registry:component",
+      "title": "Aurora Flow Nav",
+      "description": "A floating night-glass nav whose active mark is a band of aurora light that takes the colour of the sky above its link and flows to the next one leading edge first.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aurora-flow-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aurora-flow-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "aurora"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aurora-flow-nav",
+        "prompt": "prompts/aurora-flow-nav.md"
+      }
+    },
+    {
+      "name": "aurora-glow-button",
+      "type": "registry:component",
+      "title": "Aurora Glow Button",
+      "description": "A night-glass pill with a sliver of aurora under it, turning on a 60s clock that every button on the page shares, spreading on hover and sending a ring of light out on press.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aurora-glow-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aurora-glow-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "aurora"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aurora-glow-button",
+        "prompt": "prompts/aurora-glow-button.md"
+      }
+    },
+    {
+      "name": "aurora-glow-input",
+      "type": "registry:component",
+      "title": "Aurora Glow Input",
+      "description": "A waitlist field that lights like the sky: focus raises a two-hue bloom and lights the rim, every keystroke sends a rose ripple from the caret, and joining sweeps the whole palette once.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aurora-glow-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aurora-glow-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "aurora"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aurora-glow-input",
+        "prompt": "prompts/aurora-glow-input.md"
+      }
+    },
+    {
+      "name": "aurora-ribbon-cursor",
+      "type": "registry:component",
+      "title": "Aurora Ribbon Cursor",
+      "description": "The pointer paints a small aurora: a ribbon of light coloured from the indigo fringe to rose that fades like the sky, sending short rays up from every point so the trail reads as a curtain.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aurora-ribbon-cursor.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aurora-ribbon-cursor.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "aurora"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aurora-ribbon-cursor",
+        "prompt": "prompts/aurora-ribbon-cursor.md"
+      }
+    },
+    {
+      "name": "aurora-rim-card",
+      "type": "registry:component",
+      "title": "Aurora Rim Card",
+      "description": "A night-glass card with a slow aurora rim that turns once every 52 seconds, feathered into light, brightening near the pointer while the card tilts a hair toward it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/aurora-rim-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/aurora-rim-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "aurora"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/aurora-rim-card",
+        "prompt": "prompts/aurora-rim-card.md"
+      }
+    },
+    {
+      "name": "axis-flow-nav",
+      "type": "registry:component",
+      "title": "Axis Flow Nav",
+      "description": "A nav whose links are one flush line: the active link is loud, the rest condensed, and choosing another makes the width flow to it letter by letter while the nav never changes size.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/axis-flow-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/axis-flow-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/axis-flow-nav",
+        "prompt": "prompts/axis-flow-nav.md"
+      }
+    },
+    {
+      "name": "axis-press-button",
+      "type": "registry:component",
+      "title": "Axis Press Button",
+      "description": "A button whose label is the control: letters under the pointer swell heavier and wider while the rest condense, so the button never changes size, and a press clenches every letter and springs it back.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/axis-press-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/axis-press-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/axis-press-button",
+        "prompt": "prompts/axis-press-button.md"
+      }
+    },
+    {
+      "name": "axis-scrub-heading",
+      "type": "registry:component",
+      "title": "Axis Scrub Heading",
+      "description": "A heading written by the scroll: as it rises through the view a wave runs through its letters from hairline to a loud accent peak to its set weight, and scrolling back unwrites it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/axis-scrub-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/axis-scrub-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/axis-scrub-heading",
+        "prompt": "prompts/axis-scrub-heading.md"
+      }
+    },
+    {
+      "name": "axis-session-card",
+      "type": "registry:component",
+      "title": "Axis Session Card",
+      "description": "A programme card whose title is set by what the session is: a workshop quiet and narrow, a talk set, a keynote loud and wide, so a grid reads as a legend; hover pushes it further into its own kind.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/axis-session-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/axis-session-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/axis-session-card",
+        "prompt": "prompts/axis-session-card.md"
+      }
+    },
+    {
+      "name": "badge-ping-counter",
+      "type": "registry:component",
+      "title": "Badge Ping Counter",
+      "description": "An icon badge counter that bounces and pings once on every increment.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/badge-ping-counter.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/badge-ping-counter.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/badge-ping-counter",
+        "prompt": "prompts/badge-ping-counter.md"
+      }
+    },
+    {
+      "name": "bayer-dissolve",
+      "type": "registry:component",
+      "title": "Bayer Dissolve",
+      "description": "An ordered-dither transition: a new state prints in over the old one in 8x8 Bayer order while the screen refines from coarse cells to fine, or prints in from the ground on first view.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/bayer-dissolve.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/bayer-dissolve.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "dither-ascii"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/bayer-dissolve",
+        "prompt": "prompts/bayer-dissolve.md"
+      }
+    },
+    {
+      "name": "bayer-fill-button",
+      "type": "registry:component",
+      "title": "Bayer Fill Button",
+      "description": "A button whose fill prints in cell by cell through the 8x8 Bayer order on hover and focus, with its label inverting exactly where each cell lands; press it and the screen halves to a finer grid.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/bayer-fill-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/bayer-fill-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "dither-ascii"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/bayer-fill-button",
+        "prompt": "prompts/bayer-fill-button.md"
+      }
+    },
+    {
+      "name": "beam-connector",
+      "type": "registry:component",
+      "title": "Beam Connector",
+      "description": "A hairline beam between any two elements, routed with rounded right-angle elbows, that carries a pulse of light once per cycle and lands with a flash at the far end.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/beam-connector.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/beam-connector.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/beam-connector",
+        "prompt": "prompts/beam-connector.md"
+      }
+    },
+    {
+      "name": "beam-sweep-backdrop",
+      "type": "registry:component",
+      "title": "Beam Sweep Backdrop",
+      "description": "Slow conic light beams rotating behind content, CSS-only and compositor-friendly.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/beam-sweep-backdrop.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/beam-sweep-backdrop.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/beam-sweep-backdrop",
+        "prompt": "prompts/beam-sweep-backdrop.md"
+      }
+    },
+    {
+      "name": "bento-command-nav",
+      "type": "registry:component",
+      "title": "Bento Command Nav",
+      "description": "Site navigation as one row of bento tiles sharing 1px hairlines, with a pointer light that shows through them and menus that open as panels of tiles.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/bento-command-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/bento-command-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "bento"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/bento-command-nav",
+        "prompt": "prompts/bento-command-nav.md"
+      }
+    },
+    {
+      "name": "bento-footer-grid",
+      "type": "registry:component",
+      "title": "Bento Footer Grid",
+      "description": "A bento footer whose tiles are live: a 90-day uptime strip you can read day by day, a back-to-top ring that fills as you scroll, a newsletter that widens across its row as its neighbours reflow, and a wordmark that rises into its crop.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/bento-footer-grid.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/bento-footer-grid.tsx"
+        }
+      ],
+      "categories": [
+        "sections",
+        "bento"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/bento-footer-grid",
+        "prompt": "prompts/bento-footer-grid.md"
+      }
+    },
+    {
+      "name": "black-border-form",
+      "type": "registry:component",
+      "title": "Black Border Form",
+      "description": "Neo-brutalist form fields in 3px ink: focus presses a field into its shadow, and errors are stamped on as tilted black tags. The browser's own validation, a posting form and a received stamp.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/black-border-form.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/black-border-form.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "brutalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/black-border-form",
+        "prompt": "prompts/black-border-form.md"
+      }
+    },
+    {
+      "name": "breath-pacer-ring",
+      "type": "registry:component",
+      "title": "Breath Pacer Ring",
+      "description": "A breathing guide in soft light: a grained halo swells as you breathe in and settles as you breathe out, a thin ring traces each phase and the seconds count down; it starts only when asked.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/breath-pacer-ring.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/breath-pacer-ring.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "diffused-glow"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/breath-pacer-ring",
+        "prompt": "prompts/breath-pacer-ring.md"
+      }
+    },
+    {
+      "name": "capture-loop-card",
+      "type": "registry:component",
+      "title": "Capture Loop Card",
+      "description": "A bento tile whose picture is a tightly cropped loop of your product, still until someone hovers or presses play, with a hairline that tracks the loop.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/capture-loop-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/capture-loop-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "bento"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/capture-loop-card",
+        "prompt": "prompts/capture-loop-card.md"
+      }
+    },
+    {
+      "name": "chrome-pill-button",
+      "type": "registry:component",
+      "title": "Chrome Pill Button",
+      "description": "A pill of polished chrome that reflects a lit room: its horizon, softbox glint and bezel light turn toward the pointer, and a press squashes it and drops a ring into the surface.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/chrome-pill-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/chrome-pill-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "liquid-chrome"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/chrome-pill-button",
+        "prompt": "prompts/chrome-pill-button.md"
+      }
+    },
+    {
+      "name": "chrome-pour-reveal",
+      "type": "registry:component",
+      "title": "Chrome Pour Reveal",
+      "description": "A reveal that casts its content in liquid chrome: molten metal pours down over the space with drips racing ahead and merging into the sheet, then cools away from the top behind a hot seam of light.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/chrome-pour-reveal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/chrome-pour-reveal.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "liquid-chrome"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/chrome-pour-reveal",
+        "prompt": "prompts/chrome-pour-reveal.md"
+      }
+    },
+    {
+      "name": "chrome-rim-input",
+      "type": "registry:component",
+      "title": "Chrome Rim Input",
+      "description": "An email field in a pill with a chrome rim: each keystroke sends two ripples of light racing round the rim from the caret, a light laps it while sending, and success pours the pill into a round chrome drop with a check.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/chrome-rim-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/chrome-rim-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "liquid-chrome"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/chrome-rim-input",
+        "prompt": "prompts/chrome-rim-input.md"
+      }
+    },
+    {
+      "name": "progress-ring",
+      "type": "registry:component",
+      "title": "Circular Progress Ring",
+      "description": "An SVG progress ring whose fill and centered percentage count up together on scroll into view.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/progress-ring.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/progress-ring.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/progress-ring",
+        "prompt": "prompts/progress-ring.md"
+      }
+    },
+    {
+      "name": "command-palette",
+      "type": "registry:component",
+      "title": "Command Palette",
+      "description": "A Cmd+K style searchable command menu with a filtered live list.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/command-palette.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/command-palette.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/command-palette",
+        "prompt": "prompts/command-palette.md"
+      }
+    },
+    {
+      "name": "concrete-wall-texture",
+      "type": "registry:component",
+      "title": "Concrete Wall Texture",
+      "description": "A seamless procedural concrete surface drawn once to canvas and blended over anything.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/concrete-wall-texture.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/concrete-wall-texture.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/concrete-wall-texture",
+        "prompt": "prompts/concrete-wall-texture.md"
+      }
+    },
+    {
+      "name": "confetti-button",
+      "type": "registry:component",
+      "title": "Confetti Burst Button",
+      "description": "A button that scatters a quick burst of confetti particles on click.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/confetti-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/confetti-button.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/confetti-button",
+        "prompt": "prompts/confetti-button.md"
+      }
+    },
+    {
+      "name": "copy-code-snippet",
+      "type": "registry:component",
+      "title": "Copy Code Snippet",
+      "description": "A dark code block with a one-click copy button that confirms itself.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/copy-code-snippet.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/copy-code-snippet.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/copy-code-snippet",
+        "prompt": "prompts/copy-code-snippet.md"
+      }
+    },
+    {
+      "name": "cursor-crosshair-readout",
+      "type": "registry:component",
+      "title": "Crosshair Cursor Readout",
+      "description": "A drafting-tool crosshair with live X/Y coordinates that trails the pointer.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/cursor-crosshair-readout.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/cursor-crosshair-readout.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/cursor-crosshair-readout",
+        "prompt": "prompts/cursor-crosshair-readout.md"
+      }
+    },
+    {
+      "name": "crt-scanline-overlay",
+      "type": "registry:component",
+      "title": "CRT Scanline Overlay",
+      "description": "Scanlines, aperture grille, rolling refresh and vignette over any content.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/crt-scanline-overlay.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/crt-scanline-overlay.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/crt-scanline-overlay",
+        "prompt": "prompts/crt-scanline-overlay.md"
+      }
+    },
+    {
+      "name": "cursor-label-follower",
+      "type": "registry:component",
+      "title": "Cursor Label Follower",
+      "description": "A contextual chip that trails the pointer and names whatever it is over.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/cursor-label-follower.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/cursor-label-follower.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/cursor-label-follower",
+        "prompt": "prompts/cursor-label-follower.md"
+      }
+    },
+    {
+      "name": "cursor-lens-magnifier",
+      "type": "registry:component",
+      "title": "Cursor Lens Magnifier",
+      "description": "A glass lens that follows the pointer and magnifies the live DOM beneath it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/cursor-lens-magnifier.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/cursor-lens-magnifier.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/cursor-lens-magnifier",
+        "prompt": "prompts/cursor-lens-magnifier.md"
+      }
+    },
+    {
+      "name": "cursor-mask-reveal",
+      "type": "registry:component",
+      "title": "Cursor Mask Reveal",
+      "description": "The pointer cuts a soft hole through one layer to expose a different one beneath.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/cursor-mask-reveal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/cursor-mask-reveal.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/cursor-mask-reveal",
+        "prompt": "prompts/cursor-mask-reveal.md"
+      }
+    },
+    {
+      "name": "curved-rail-nav",
+      "type": "registry:component",
+      "title": "Curved Rail Nav",
+      "description": "A nav whose links ride a shallow cylinder in real perspective: the active link stands forward and underlit in copper, and choosing another turns the rail toward it on a spring.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/curved-rail-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/curved-rail-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/curved-rail-nav",
+        "prompt": "prompts/curved-rail-nav.md"
+      }
+    },
+    {
+      "name": "deploy-log-input",
+      "type": "registry:component",
+      "title": "Deploy Log Input",
+      "description": "An email field that answers with a streaming log: on submit, short lines stream under it with spinners turning into checks while a beam of light runs along its top edge, and the last line waits for your handler.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/deploy-log-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/deploy-log-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/deploy-log-input",
+        "prompt": "prompts/deploy-log-input.md"
+      }
+    },
+    {
+      "name": "detent-dial-input",
+      "type": "registry:component",
+      "title": "Detent Dial Input",
+      "description": "A number set by turning a CSS-3D dial: drag round it and it steps through detents, springing onto each while its copper marker ticks; a real slider with full keyboard control that submits in a form.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/detent-dial-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/detent-dial-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/detent-dial-input",
+        "prompt": "prompts/detent-dial-input.md"
+      }
+    },
+    {
+      "name": "dither-develop-card",
+      "type": "registry:component",
+      "title": "Dither Develop Card",
+      "description": "A card whose image prints in cell by cell the first time it is seen, ordered-dithered with CSS alone, with a soft light that follows the pointer through the dither.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/dither-develop-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/dither-develop-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "dither-ascii"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/dither-develop-card",
+        "prompt": "prompts/dither-develop-card.md"
+      }
+    },
+    {
+      "name": "dither-drop-input",
+      "type": "registry:component",
+      "title": "Dither Drop Input",
+      "description": "Drop an image and see it dithered right there, with CSS alone: choose the cell size and the ink, set the exposure, and the request URL for that output builds as you go; submitting copies it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/dither-drop-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/dither-drop-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "dither-ascii"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/dither-drop-input",
+        "prompt": "prompts/dither-drop-input.md"
+      }
+    },
+    {
+      "name": "drag-inertia-carousel",
+      "type": "registry:component",
+      "title": "Drag Inertia Carousel",
+      "description": "A rail you can throw — it projects the momentum and settles on the nearest slide.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/drag-inertia-carousel.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/drag-inertia-carousel.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/drag-inertia-carousel",
+        "prompt": "prompts/drag-inertia-carousel.md"
+      }
+    },
+    {
+      "name": "draggable-bottom-sheet",
+      "type": "registry:component",
+      "title": "Draggable Bottom Sheet Modal",
+      "description": "A modal sheet you can drag down to dismiss, with a distance + velocity threshold.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/draggable-bottom-sheet.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/draggable-bottom-sheet.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/draggable-bottom-sheet",
+        "prompt": "prompts/draggable-bottom-sheet.md"
+      }
+    },
+    {
+      "name": "range-slider",
+      "type": "registry:component",
+      "title": "Draggable Range Slider",
+      "description": "A custom-styled slider with a drag handle and a value tooltip while dragging.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/range-slider.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/range-slider.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/range-slider",
+        "prompt": "prompts/range-slider.md"
+      }
+    },
+    {
+      "name": "draggable-sortable-list",
+      "type": "registry:component",
+      "title": "Draggable Sortable List",
+      "description": "A drag-handle-driven list that reorders with a smooth layout swap.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/draggable-sortable-list.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/draggable-sortable-list.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/draggable-sortable-list",
+        "prompt": "prompts/draggable-sortable-list.md"
+      }
+    },
+    {
+      "name": "dusk-set-footer",
+      "type": "registry:component",
+      "title": "Dusk Set Footer",
+      "description": "A footer that sets like the sun: as it scrolls in, a grained halo sinks toward a hairline horizon, warming from gold through rose to ember, behind a giant italic serif wordmark.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/dusk-set-footer.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/dusk-set-footer.tsx"
+        }
+      ],
+      "categories": [
+        "sections",
+        "diffused-glow"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/dusk-set-footer",
+        "prompt": "prompts/dusk-set-footer.md"
+      }
+    },
+    {
+      "name": "edge-invert-headline",
+      "type": "registry:component",
+      "title": "Edge Invert Headline",
+      "description": "A caps headline that inverts exactly at the edges of the plates under it; drag a plate and the inversion follows 1:1, then snaps to a lattice cell, and on column 3, 6 or 9 the plate breaks by the rule.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/edge-invert-headline.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/edge-invert-headline.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "broken-grid"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/edge-invert-headline",
+        "prompt": "prompts/edge-invert-headline.md"
+      }
+    },
+    {
+      "name": "expandable-search-bar",
+      "type": "registry:component",
+      "title": "Expandable Search Bar",
+      "description": "A search icon that smoothly expands into a full text input on click.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/expandable-search-bar.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/expandable-search-bar.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/expandable-search-bar",
+        "prompt": "prompts/expandable-search-bar.md"
+      }
+    },
+    {
+      "name": "hover-expand-panels",
+      "type": "registry:component",
+      "title": "Expanding Panel Row",
+      "description": "A row of panels where the hovered one grows and its neighbours compress.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hover-expand-panels.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hover-expand-panels.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hover-expand-panels",
+        "prompt": "prompts/hover-expand-panels.md"
+      }
+    },
+    {
+      "name": "extruded-spec-card",
+      "type": "registry:component",
+      "title": "Extruded Spec Card",
+      "description": "A card holding a small machined dial built in CSS 3D: the card tilts toward the pointer and the dial turns to follow it one detent at a time, its copper marker lit, over a data-plate of specs.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/extruded-spec-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/extruded-spec-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/extruded-spec-card",
+        "prompt": "prompts/extruded-spec-card.md"
+      }
+    },
+    {
+      "name": "extruded-type-tilt",
+      "type": "registry:component",
+      "title": "Extruded Type Tilt",
+      "description": "Display type with a solid extrusion that swings around as the pointer moves.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/extruded-type-tilt.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/extruded-type-tilt.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/extruded-type-tilt",
+        "prompt": "prompts/extruded-type-tilt.md"
+      }
+    },
+    {
+      "name": "file-upload-dropzone",
+      "type": "registry:component",
+      "title": "File Upload Dropzone",
+      "description": "A real drag-and-drop file zone with a live dragover state and file chips.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/file-upload-dropzone.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/file-upload-dropzone.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/file-upload-dropzone",
+        "prompt": "prompts/file-upload-dropzone.md"
+      }
+    },
+    {
+      "name": "flip-grid-reorder",
+      "type": "registry:component",
+      "title": "FLIP Grid Reorder",
+      "description": "A filterable grid whose tiles travel to their new positions instead of snapping.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/flip-grid-reorder.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/flip-grid-reorder.tsx"
+        }
+      ],
+      "categories": [
+        "animations"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/flip-grid-reorder",
+        "prompt": "prompts/flip-grid-reorder.md"
+      }
+    },
+    {
+      "name": "floating-label-input",
+      "type": "registry:component",
+      "title": "Floating Label Input",
+      "description": "A text input whose label floats from placeholder position into a caption on focus.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/floating-label-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/floating-label-input.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/floating-label-input",
+        "prompt": "prompts/floating-label-input.md"
+      }
+    },
+    {
+      "name": "fuzzy-match-input",
+      "type": "registry:component",
+      "title": "Fuzzy Match Input",
+      "description": "Subsequence search that scores by run length and word starts, and highlights the hits.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/fuzzy-match-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/fuzzy-match-input.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/fuzzy-match-input",
+        "prompt": "prompts/fuzzy-match-input.md"
+      }
+    },
+    {
+      "name": "glass-etch-text",
+      "type": "registry:component",
+      "title": "Glass Etch Text",
+      "description": "Real, selectable heading text rendered as glass: a lit bevel, a graduated rim and a hairline colour fringe, raised or etched in.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/glass-etch-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/glass-etch-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "glassmorphism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/glass-etch-text",
+        "prompt": "prompts/glass-etch-text.md"
+      }
+    },
+    {
+      "name": "glass-focus-field",
+      "type": "registry:component",
+      "title": "Glass Focus Field",
+      "description": "A liquid-glass input whose rim notices the pointer before focus, thickens outward from where you click, ripples from the caret with every keystroke and clouds its frost on an error.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/glass-focus-field.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/glass-focus-field.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "glassmorphism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/glass-focus-field",
+        "prompt": "prompts/glass-focus-field.md"
+      }
+    },
+    {
+      "name": "glass-morph-popover",
+      "type": "registry:component",
+      "title": "Glass Morph Popover",
+      "description": "A popover that grows out of its button as a drop of liquid glass, stretches toward its place and settles flat, then drains back the same way.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/glass-morph-popover.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/glass-morph-popover.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "glassmorphism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/glass-morph-popover",
+        "prompt": "prompts/glass-morph-popover.md"
+      }
+    },
+    {
+      "name": "glass-tint-footer",
+      "type": "registry:component",
+      "title": "Glass Tint Footer",
+      "description": "A liquid-glass footer slab that rises over the section above as you scroll in, its meniscus edge sloshing on fast scrolls, with a pointer light, a droplet gliding between links and frost re-tinted to that section.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/glass-tint-footer.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/glass-tint-footer.tsx"
+        }
+      ],
+      "categories": [
+        "sections",
+        "glassmorphism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/glass-tint-footer",
+        "prompt": "prompts/glass-tint-footer.md"
+      }
+    },
+    {
+      "name": "glitch-text-hover",
+      "type": "registry:component",
+      "title": "Glitch Text Hover",
+      "description": "An RGB-split, jittery glitch effect on text when you hover it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/glitch-text-hover.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/glitch-text-hover.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/glitch-text-hover",
+        "prompt": "prompts/glitch-text-hover.md"
+      }
+    },
+    {
+      "name": "glyph-axis-stagger",
+      "type": "registry:component",
+      "title": "Glyph Axis Stagger",
+      "description": "The kit's rebuild as a primitive: split any text into letters and spring each one between two settings of the face, a fixed delay apart, in the order you choose, on view, on hover or on command.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/glyph-axis-stagger.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/glyph-axis-stagger.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/glyph-axis-stagger",
+        "prompt": "prompts/glyph-axis-stagger.md"
+      }
+    },
+    {
+      "name": "grain-overlay",
+      "type": "registry:component",
+      "title": "Grain Overlay",
+      "description": "A subtle animated film-grain texture layered over any section via canvas.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/grain-overlay.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/grain-overlay.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/grain-overlay",
+        "prompt": "prompts/grain-overlay.md"
+      }
+    },
+    {
+      "name": "gummy-type-input",
+      "type": "registry:component",
+      "title": "Gummy Type Input",
+      "description": "An email field whose letters drop in and land: each typed letter falls from a little above, stretched as it falls and squashed as it lands, while the real input underneath keeps the caret, selection and autofill.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/gummy-type-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/gummy-type-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "tactile-maximalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/gummy-type-input",
+        "prompt": "prompts/gummy-type-input.md"
+      }
+    },
+    {
+      "name": "hairline-morph-nav",
+      "type": "registry:component",
+      "title": "Hairline Morph Nav",
+      "description": "A nav whose single hairline stretches toward the next link and settles under it: its leading edge runs ahead on a quick spring while its trailing edge follows on a slower one, and the active label steps up a weight without shifting.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hairline-morph-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hairline-morph-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "modern-minimal"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hairline-morph-nav",
+        "prompt": "prompts/hairline-morph-nav.md"
+      }
+    },
+    {
+      "name": "hairline-tile-button",
+      "type": "registry:component",
+      "title": "Hairline Tile Button",
+      "description": "A button that behaves like a live bento grid: on hover it re-tiles into compartments along lit hairline seams, compresses toward your press, and its keycaps are a real keyboard shortcut.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hairline-tile-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hairline-tile-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "bento"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hairline-tile-button",
+        "prompt": "prompts/hairline-tile-button.md"
+      }
+    },
+    {
+      "name": "halo-treatment-card",
+      "type": "registry:component",
+      "title": "Halo Treatment Card",
+      "description": "A treatment card with a light well: a grained halo in the treatment's own colour rests low, then rises and blooms toward the pointer on hover or focus while the card lifts on a feathered shadow.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/halo-treatment-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/halo-treatment-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "diffused-glow"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/halo-treatment-card",
+        "prompt": "prompts/halo-treatment-card.md"
+      }
+    },
+    {
+      "name": "hanging-label-input",
+      "type": "registry:component",
+      "title": "Hanging Label Input",
+      "description": "A contact form whose numbered labels hang one gutter off the lattice and step into line in 160ms when you use the field; the third row breaks by the rule, and it only claims to send when it has a handler.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hanging-label-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hanging-label-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "broken-grid"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hanging-label-input",
+        "prompt": "prompts/hanging-label-input.md"
+      }
+    },
+    {
+      "name": "headline-switch-hero",
+      "type": "registry:component",
+      "title": "Headline Switch Hero",
+      "description": "The second line of the headline is the navigation: KITCHENS / BATHROOMS / LOFTS at headline size, and choosing one swaps the treated photo plate, the copy and the price.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/headline-switch-hero.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/headline-switch-hero.tsx"
+        }
+      ],
+      "categories": [
+        "heroes",
+        "editorial"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/headline-switch-hero",
+        "prompt": "prompts/headline-switch-hero.md"
+      }
+    },
+    {
+      "name": "hide-on-scroll-navbar",
+      "type": "registry:component",
+      "title": "Hide On Scroll Navbar",
+      "description": "A navbar that slides away on scroll-down and reappears on scroll-up.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/hide-on-scroll-navbar.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hide-on-scroll-navbar.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hide-on-scroll-navbar",
+        "prompt": "prompts/hide-on-scroll-navbar.md"
+      }
+    },
+    {
+      "name": "holo-ticket-card",
+      "type": "registry:component",
+      "title": "Holo Ticket Card",
+      "description": "A tour date as a notched, perforated ticket whose stub carries the date in chrome numerals on a strip of holographic foil; it tilts toward the pointer while the foil's colour slides and a glare follows.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/holo-ticket-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/holo-ticket-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "liquid-chrome"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/holo-ticket-card",
+        "prompt": "prompts/holo-ticket-card.md"
+      }
+    },
+    {
+      "name": "horizon-light-footer",
+      "type": "registry:component",
+      "title": "Horizon Light Footer",
+      "description": "A footer whose giant wordmark is lit from below by a horizon that is also a signal: a latency trace lit where the pointer is, with a request pulse that runs it every few seconds and lights the letters as it passes.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/horizon-light-footer.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/horizon-light-footer.tsx"
+        }
+      ],
+      "categories": [
+        "sections",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/horizon-light-footer",
+        "prompt": "prompts/horizon-light-footer.md"
+      }
+    },
+    {
+      "name": "hours-poster-section",
+      "type": "registry:component",
+      "title": "Hours Poster Section",
+      "description": "Opening hours set as a poster — days hanging off the edge, closed rows struck through, today banded in the one accent — with an open/closed line on the shop's clock.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hours-poster-section.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hours-poster-section.tsx"
+        }
+      ],
+      "categories": [
+        "sections",
+        "editorial"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hours-poster-section",
+        "prompt": "prompts/hours-poster-section.md"
+      }
+    },
+    {
+      "name": "image-comparison-slider",
+      "type": "registry:component",
+      "title": "Image Comparison Slider",
+      "description": "A draggable before/after divider that reveals one image over another.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/image-comparison-slider.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/image-comparison-slider.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/image-comparison-slider",
+        "prompt": "prompts/image-comparison-slider.md"
+      }
+    },
+    {
+      "name": "index-step-nav",
+      "type": "registry:component",
+      "title": "Index Step Nav",
+      "description": "A numbered nav whose third item hangs one gutter below the bar on a contrasting plate by the rule, the bar's hairline dipping under it, and a tag that steps to the current item, or the one you point at, in four ticks.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/index-step-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/index-step-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "broken-grid"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/index-step-nav",
+        "prompt": "prompts/index-step-nav.md"
+      }
+    },
+    {
+      "name": "star-rating-interactive",
+      "type": "registry:component",
+      "title": "Interactive Star Rating",
+      "description": "A 5-star rating control with hover preview and a springy fill pop.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/star-rating-interactive.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/star-rating-interactive.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/star-rating-interactive",
+        "prompt": "prompts/star-rating-interactive.md"
+      }
+    },
+    {
+      "name": "kanban-drag-columns",
+      "type": "registry:component",
+      "title": "Kanban Drag Columns",
+      "description": "A mini kanban board where cards drag both within and across columns.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/kanban-drag-columns.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/kanban-drag-columns.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/kanban-drag-columns",
+        "prompt": "prompts/kanban-drag-columns.md"
+      }
+    },
+    {
+      "name": "keycap-button",
+      "type": "registry:component",
+      "title": "Keycap Button",
+      "description": "A button machined like a keycap: a press drops the cap 6px as its skirt collapses, release springs it back past rest, a specular follows the pointer and a copper status light glows while it's held.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/keycap-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/keycap-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "spatial-3d"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/keycap-button",
+        "prompt": "prompts/keycap-button.md"
+      }
+    },
+    {
+      "name": "light-lift-card",
+      "type": "registry:component",
+      "title": "Light Lift Card",
+      "description": "A card that lifts toward the pointer with shadows that behave like light: a two-degree tilt, an ambient shadow that widens and drifts away from the side that rose, a contact line that thins, and a plate of light at a colour temperature.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/light-lift-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/light-lift-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "modern-minimal"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/light-lift-card",
+        "prompt": "prompts/light-lift-card.md"
+      }
+    },
+    {
+      "name": "hover-link-peek",
+      "type": "registry:component",
+      "title": "Link Peek Preview",
+      "description": "An index list that floats a velocity-tilted preview card beside the pointer.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/hover-link-peek.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hover-link-peek.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hover-link-peek",
+        "prompt": "prompts/hover-link-peek.md"
+      }
+    },
+    {
+      "name": "liquid-blob-cursor",
+      "type": "registry:component",
+      "title": "Liquid Blob Cursor Follow",
+      "description": "A soft blurred blob that trails the cursor with spring-smoothed lag.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/liquid-blob-cursor.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/liquid-blob-cursor.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/liquid-blob-cursor",
+        "prompt": "prompts/liquid-blob-cursor.md"
+      }
+    },
+    {
+      "name": "liquid-glass-button",
+      "type": "registry:component",
+      "title": "Liquid Glass Button",
+      "description": "A pill of liquid glass that bends what is behind it: real refraction at the rim, a rim and sheen lit by your pointer, and a gel-like press.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/liquid-glass-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/liquid-glass-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "glassmorphism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/liquid-glass-button",
+        "prompt": "prompts/liquid-glass-button.md"
+      }
+    },
+    {
+      "name": "liquid-glass-switch",
+      "type": "registry:component",
+      "title": "Liquid Glass Switch",
+      "description": "A toggle whose knob swells into a clear glass lens while you hold or drag it, magnifying the track beneath, then springs home solid.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/liquid-glass-switch.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/liquid-glass-switch.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "glassmorphism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/liquid-glass-switch",
+        "prompt": "prompts/liquid-glass-switch.md"
+      }
+    },
+    {
+      "name": "magnetic-button",
+      "type": "registry:component",
+      "title": "Magnetic Button",
+      "description": "A button whose label leans toward the cursor with a springy pull.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/magnetic-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/magnetic-button.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/magnetic-button",
+        "prompt": "prompts/magnetic-button.md"
+      }
+    },
+    {
+      "name": "magnetic-nav-dock",
+      "type": "registry:component",
+      "title": "Magnetic Nav Dock",
+      "description": "A macOS-style dock where icons magnify based on real distance from the cursor.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/magnetic-nav-dock.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/magnetic-nav-dock.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/magnetic-nav-dock",
+        "prompt": "prompts/magnetic-nav-dock.md"
+      }
+    },
+    {
+      "name": "marker-highlight-text",
+      "type": "registry:component",
+      "title": "Marker Highlight Text",
+      "description": "A felt-tip highlighter stroke with a ragged edge that draws itself behind a phrase when it scrolls into view.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/marker-highlight-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/marker-highlight-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "editorial"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/marker-highlight-text",
+        "prompt": "prompts/marker-highlight-text.md"
+      }
+    },
+    {
+      "name": "marquee-ticker",
+      "type": "registry:component",
+      "title": "Marquee Ticker",
+      "description": "An infinite scrolling strip of words or logos that pauses when you hover it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/marquee-ticker.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/marquee-ticker.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/marquee-ticker",
+        "prompt": "prompts/marquee-ticker.md"
+      }
+    },
+    {
+      "name": "masonry-image-hover-grid",
+      "type": "registry:component",
+      "title": "Masonry Image Hover Grid",
+      "description": "A CSS-columns masonry gallery with a scale + caption reveal on hover.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/masonry-image-hover-grid.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/masonry-image-hover-grid.tsx"
+        }
+      ],
+      "categories": [
+        "assets"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/masonry-image-hover-grid",
+        "prompt": "prompts/masonry-image-hover-grid.md"
+      }
+    },
+    {
+      "name": "mercury-pour-nav",
+      "type": "registry:component",
+      "title": "Mercury Pour Nav",
+      "description": "A floating nav whose current-link indicator is a capsule of mercury on two springs: it stretches thin as it pours to the next link, snaps back round, reaches toward the link you hover, and turns the labels it covers dark.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/mercury-pour-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/mercury-pour-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "liquid-chrome"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/mercury-pour-nav",
+        "prompt": "prompts/mercury-pour-nav.md"
+      }
+    },
+    {
+      "name": "morphing-hamburger-icon",
+      "type": "registry:component",
+      "title": "Morphing Hamburger Icon",
+      "description": "A three-line menu icon that morphs smoothly into an X.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/morphing-hamburger-icon.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/morphing-hamburger-icon.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/morphing-hamburger-icon",
+        "prompt": "prompts/morphing-hamburger-icon.md"
+      }
+    },
+    {
+      "name": "morphing-island-notch",
+      "type": "registry:component",
+      "title": "Morphing Island Notch",
+      "description": "A status pill that resizes itself fluidly around whatever content it holds.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/morphing-island-notch.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/morphing-island-notch.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/morphing-island-notch",
+        "prompt": "prompts/morphing-island-notch.md"
+      }
+    },
+    {
+      "name": "name-badge-input",
+      "type": "registry:component",
+      "title": "Name Badge Input",
+      "description": "A name field that sets your name on a pass as you type: each new letter lands loud in the accent and springs into place, a deleted one collapses to a hairline, and the name stays flush across the badge.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/name-badge-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/name-badge-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/name-badge-input",
+        "prompt": "prompts/name-badge-input.md"
+      }
+    },
+    {
+      "name": "odometer-counter",
+      "type": "registry:component",
+      "title": "Odometer Counter",
+      "description": "A stat number that rolls up from zero to its target the moment it's in view.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/odometer-counter.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/odometer-counter.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/odometer-counter",
+        "prompt": "prompts/odometer-counter.md"
+      }
+    },
+    {
+      "name": "offset-shadow-card",
+      "type": "registry:component",
+      "title": "Offset Shadow Card",
+      "description": "A neo-brutalist card on a hard shadow: it lifts 2px on hover and lands on the shadow when pressed. A flat drawn motif or a photo, a punched price tag, a sticker badge, 3px ink throughout.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/offset-shadow-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/offset-shadow-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "brutalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/offset-shadow-card",
+        "prompt": "prompts/offset-shadow-card.md"
+      }
+    },
+    {
+      "name": "offset-target-button",
+      "type": "registry:component",
+      "title": "Offset Target Button",
+      "description": "A button whose label plate hangs off its hairline target along the grid's axis, reaches further and lights its bracket on hover or focus, and seats into the target in 120ms when you press it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/offset-target-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/offset-target-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "broken-grid"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/offset-target-button",
+        "prompt": "prompts/offset-target-button.md"
+      }
+    },
+    {
+      "name": "orbit-light-button",
+      "type": "registry:component",
+      "title": "Orbit Light Button",
+      "description": "A dark pill whose border carries one light: it laps the outline slowly, glides to the nearest point of the border under the pointer and lights the surface from there, and a press sends a ring outward.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/orbit-light-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/orbit-light-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/orbit-light-button",
+        "prompt": "prompts/orbit-light-button.md"
+      }
+    },
+    {
+      "name": "otp-code-input",
+      "type": "registry:component",
+      "title": "OTP Code Input",
+      "description": "A one-time-code field whose cells survive SMS autofill, paste and Android backspace.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/otp-code-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/otp-code-input.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/otp-code-input",
+        "prompt": "prompts/otp-code-input.md"
+      }
+    },
+    {
+      "name": "page-loading-bar",
+      "type": "registry:component",
+      "title": "Page Loading Bar",
+      "description": "An nprogress-style top-of-page bar that eases toward completion, never stalling.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/page-loading-bar.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/page-loading-bar.tsx"
+        }
+      ],
+      "categories": [
+        "assets"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/page-loading-bar",
+        "prompt": "prompts/page-loading-bar.md"
+      }
+    },
+    {
+      "name": "path-follow-scroll",
+      "type": "registry:component",
+      "title": "Path Follow Scroll",
+      "description": "A marker that rides an SVG curve on scroll, banking through the bends.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/path-follow-scroll.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/path-follow-scroll.tsx"
+        }
+      ],
+      "categories": [
+        "animations"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/path-follow-scroll",
+        "prompt": "prompts/path-follow-scroll.md"
+      }
+    },
+    {
+      "name": "pointer-lit-card",
+      "type": "registry:component",
+      "title": "Pointer Lit Card",
+      "description": "A card lit from the pointer: a bright arc of light on the hairline border, a softer wash across the surface, a two-degree tilt toward the pointer and a little counter-parallax on the content.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/pointer-lit-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/pointer-lit-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/pointer-lit-card",
+        "prompt": "prompts/pointer-lit-card.md"
+      }
+    },
+    {
+      "name": "pointer-parallax-scene",
+      "type": "registry:component",
+      "title": "Pointer Parallax Scene",
+      "description": "A depth system where layers separate under the pointer from one shared motion source.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/pointer-parallax-scene.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/pointer-parallax-scene.tsx"
+        }
+      ],
+      "categories": [
+        "animations"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/pointer-parallax-scene",
+        "prompt": "prompts/pointer-parallax-scene.md"
+      }
+    },
+    {
+      "name": "pointer-warp-dot-field",
+      "type": "registry:component",
+      "title": "Pointer Warp Dot Field",
+      "description": "A canvas dot grid that bulges and brightens away from the cursor.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/pointer-warp-dot-field.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/pointer-warp-dot-field.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/pointer-warp-dot-field",
+        "prompt": "prompts/pointer-warp-dot-field.md"
+      }
+    },
+    {
+      "name": "pour-fill-heading",
+      "type": "registry:component",
+      "title": "Pour Fill Heading",
+      "description": "A heading that starts as an empty mould and fills with liquid chrome as it scrolls into view, its surface a meniscus with a hot line of light that sloshes with scroll speed and settles.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/pour-fill-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/pour-fill-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "liquid-chrome"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/pour-fill-heading",
+        "prompt": "prompts/pour-fill-heading.md"
+      }
+    },
+    {
+      "name": "pricing-toggle-switch",
+      "type": "registry:component",
+      "title": "Pricing Toggle Switch",
+      "description": "A monthly/yearly billing switch with the price sliding to its new value.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/pricing-toggle-switch.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/pricing-toggle-switch.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/pricing-toggle-switch",
+        "prompt": "prompts/pricing-toggle-switch.md"
+      }
+    },
+    {
+      "name": "punch-card-field",
+      "type": "registry:component",
+      "title": "Punch Card Field",
+      "description": "A background of 80-column punch cards whose holes spell real text in Hollerith code. Holes are punched in column by column on arrival; point at a column to decode it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/punch-card-field.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/punch-card-field.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds",
+        "brutalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/punch-card-field",
+        "prompt": "prompts/punch-card-field.md"
+      }
+    },
+    {
+      "name": "pushed-shadow-button",
+      "type": "registry:component",
+      "title": "Pushed Shadow Button",
+      "description": "A neo-brutalist button on a hard 5px shadow: hover lifts it 2px, a press lands it exactly on its shadow. 3px ink everywhere, 100ms linear, no blur.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/pushed-shadow-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/pushed-shadow-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "brutalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/pushed-shadow-button",
+        "prompt": "prompts/pushed-shadow-button.md"
+      }
+    },
+    {
+      "name": "ripple-click-effect",
+      "type": "registry:component",
+      "title": "Ripple Click Effect",
+      "description": "A Material-style ripple that expands from the exact click point.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/ripple-click-effect.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/ripple-click-effect.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/ripple-click-effect",
+        "prompt": "prompts/ripple-click-effect.md"
+      }
+    },
+    {
+      "name": "rotating-word-swap",
+      "type": "registry:component",
+      "title": "Rotating Word Swap Headline",
+      "description": "A headline where one word auto-cycles with a vertical odometer-style swap.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/rotating-word-swap.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/rotating-word-swap.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/rotating-word-swap",
+        "prompt": "prompts/rotating-word-swap.md"
+      }
+    },
+    {
+      "name": "rule-handoff-flip",
+      "type": "registry:component",
+      "title": "Rule Handoff Flip",
+      "description": "The kit's rule for any list: items become plates on the lattice and every third breaks; filter, sort or add and everything moves from where it was in 380ms while the break passes to whichever item is now third.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/rule-handoff-flip.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/rule-handoff-flip.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "broken-grid"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/rule-handoff-flip",
+        "prompt": "prompts/rule-handoff-flip.md"
+      }
+    },
+    {
+      "name": "scramble-text",
+      "type": "registry:component",
+      "title": "Scramble Text",
+      "description": "Text that decodes from random characters into its real word on hover.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/scramble-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/scramble-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/scramble-text",
+        "prompt": "prompts/scramble-text.md"
+      }
+    },
+    {
+      "name": "scroll-card-deal",
+      "type": "registry:component",
+      "title": "Scroll Card Deal",
+      "description": "A pile of cards that fans out symmetrically as its section crosses the viewport.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/scroll-card-deal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/scroll-card-deal.tsx"
+        }
+      ],
+      "categories": [
+        "animations"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/scroll-card-deal",
+        "prompt": "prompts/scroll-card-deal.md"
+      }
+    },
+    {
+      "name": "scroll-linked-image-mask-reveal",
+      "type": "registry:component",
+      "title": "Scroll-Linked Image Mask Reveal",
+      "description": "An image whose circular clip-path mask grows and shrinks in lockstep with scroll.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/scroll-linked-image-mask-reveal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/scroll-linked-image-mask-reveal.tsx"
+        }
+      ],
+      "categories": [
+        "sections"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/scroll-linked-image-mask-reveal",
+        "prompt": "prompts/scroll-linked-image-mask-reveal.md"
+      }
+    },
+    {
+      "name": "scrub-mask-reveal",
+      "type": "registry:component",
+      "title": "Scrub Mask Reveal",
+      "description": "A plate that opens exactly with the scroll: its rounded frame widens from a fifth in on each side to full while the picture inside eases the other way so it seems to stay still, bound with no easing, with a hairline that fills.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/scrub-mask-reveal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/scrub-mask-reveal.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "modern-minimal"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/scrub-mask-reveal",
+        "prompt": "prompts/scrub-mask-reveal.md"
+      }
+    },
+    {
+      "name": "scrub-timeline-player",
+      "type": "registry:component",
+      "title": "Scrub Timeline Player",
+      "description": "A media scrubber with buffered range, hover timestamp and pointer-capture dragging.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/scrub-timeline-player.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/scrub-timeline-player.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/scrub-timeline-player",
+        "prompt": "prompts/scrub-timeline-player.md"
+      }
+    },
+    {
+      "name": "searchable-faq-accordion",
+      "type": "registry:component",
+      "title": "Searchable FAQ Accordion",
+      "description": "A filterable FAQ list where each answer expands independently.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/searchable-faq-accordion.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/searchable-faq-accordion.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/searchable-faq-accordion",
+        "prompt": "prompts/searchable-faq-accordion.md"
+      }
+    },
+    {
+      "name": "segmented-control",
+      "type": "registry:component",
+      "title": "Segmented Control",
+      "description": "An iOS-style pill switch whose highlight slides between options.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/segmented-control.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/segmented-control.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/segmented-control",
+        "prompt": "prompts/segmented-control.md"
+      }
+    },
+    {
+      "name": "share-button-expand",
+      "type": "registry:component",
+      "title": "Share Button Expand",
+      "description": "A share icon that expands into a row of social options with a copy-link state.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/share-button-expand.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/share-button-expand.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/share-button-expand",
+        "prompt": "prompts/share-button-expand.md"
+      }
+    },
+    {
+      "name": "signal-field",
+      "type": "registry:component",
+      "title": "Signal Field",
+      "description": "A machined dot grid lit by slow waves of light, with a pointer lens and click ripples.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/signal-field.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/signal-field.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/signal-field",
+        "prompt": "prompts/signal-field.md"
+      }
+    },
+    {
+      "name": "skeleton-shimmer",
+      "type": "registry:component",
+      "title": "Skeleton Shimmer Loader",
+      "description": "Loading-state placeholder blocks with a light sweep animating across them.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/skeleton-shimmer.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/skeleton-shimmer.tsx"
+        }
+      ],
+      "categories": [
+        "assets"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/skeleton-shimmer",
+        "prompt": "prompts/skeleton-shimmer.md"
+      }
+    },
+    {
+      "name": "hover-slice-shear",
+      "type": "registry:component",
+      "title": "Slice Shear Hover",
+      "description": "Display type cut into horizontal bands that fan apart under the pointer.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hover-slice-shear.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hover-slice-shear.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hover-slice-shear",
+        "prompt": "prompts/hover-slice-shear.md"
+      }
+    },
+    {
+      "name": "slit-light-heading",
+      "type": "registry:component",
+      "title": "Slit Light Heading",
+      "description": "A heading lit by a narrow slit of light that crosses it as it scrolls into view: letters under the slit burn white, letters it has passed stay lit, letters ahead wait in the dark.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/slit-light-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/slit-light-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "dark-precision"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/slit-light-heading",
+        "prompt": "prompts/slit-light-heading.md"
+      }
+    },
+    {
+      "name": "cursor-snap-target",
+      "type": "registry:component",
+      "title": "Snapping Cursor",
+      "description": "A cursor dot that latches onto interactive elements and takes their exact shape.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/cursor-snap-target.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/cursor-snap-target.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/cursor-snap-target",
+        "prompt": "prompts/cursor-snap-target.md"
+      }
+    },
+    {
+      "name": "soft-glow-button",
+      "type": "registry:component",
+      "title": "Soft Glow Button",
+      "description": "A pill with a grained light inside it that follows the pointer with a slow settle, a diffused bloom that rises behind it, and a press that exhales a soft ring of light.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/soft-glow-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/soft-glow-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "diffused-glow"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/soft-glow-button",
+        "prompt": "prompts/soft-glow-button.md"
+      }
+    },
+    {
+      "name": "spec-numeral-tile",
+      "type": "registry:component",
+      "title": "Spec Numeral Tile",
+      "description": "A big bold numeral in a spec-sheet voice whose digits roll into place like an odometer, set in a hairline bento tile.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/spec-numeral-tile.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/spec-numeral-tile.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "bento"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/spec-numeral-tile",
+        "prompt": "prompts/spec-numeral-tile.md"
+      }
+    },
+    {
+      "name": "spotlight-grid",
+      "type": "registry:component",
+      "title": "Spotlight Card Grid",
+      "description": "A card grid with a soft red spotlight that follows the cursor across it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/spotlight-grid.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/spotlight-grid.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/spotlight-grid",
+        "prompt": "prompts/spotlight-grid.md"
+      }
+    },
+    {
+      "name": "squash-press-button",
+      "type": "registry:component",
+      "title": "Squash Press Button",
+      "description": "A pill that squashes under your finger and pops back: it sinks onto its base where you press, deeper the longer you hold, keeps its area as it squashes, and springs back with one overshoot while its tinted shadows collapse and return.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/squash-press-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/squash-press-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "tactile-maximalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/squash-press-button",
+        "prompt": "prompts/squash-press-button.md"
+      }
+    },
+    {
+      "name": "squish-flip",
+      "type": "registry:component",
+      "title": "Squish Flip",
+      "description": "A list whose items squash and stretch as they move: reorder, filter or add and each item travels to its new place stretched along its path by its speed, squashes as it lands, and settles; new items pop in.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/squish-flip.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/squish-flip.tsx"
+        }
+      ],
+      "categories": [
+        "animations",
+        "tactile-maximalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/squish-flip",
+        "prompt": "prompts/squish-flip.md"
+      }
+    },
+    {
+      "name": "squish-letter-heading",
+      "type": "registry:component",
+      "title": "Squish Letter Heading",
+      "description": "A heading whose letters squash under the pointer and push their neighbours up: each letter keeps its area as it squashes, springs back with one overshoot, and the line ripples behind the pointer before settling to crisp type.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/squish-letter-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/squish-letter-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "tactile-maximalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/squish-letter-heading",
+        "prompt": "prompts/squish-letter-heading.md"
+      }
+    },
+    {
+      "name": "stacked-type-hero",
+      "type": "registry:component",
+      "title": "Stacked Type Hero",
+      "description": "Oversized, tightly-stacked headline words that reveal in on mount — big type as sculpture.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/stacked-type-hero.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/stacked-type-hero.tsx"
+        }
+      ],
+      "categories": [
+        "sections"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/stacked-type-hero",
+        "prompt": "prompts/stacked-type-hero.md"
+      }
+    },
+    {
+      "name": "sticky-scroll-stack",
+      "type": "registry:component",
+      "title": "Sticky Scroll Stack",
+      "description": "Cards that pin and stack on top of each other as you scroll past.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/sticky-scroll-stack.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/sticky-scroll-stack.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/sticky-scroll-stack",
+        "prompt": "prompts/sticky-scroll-stack.md"
+      }
+    },
+    {
+      "name": "hover-stroke-draw-button",
+      "type": "registry:component",
+      "title": "Stroke Draw Button",
+      "description": "A button whose outline draws itself around the shape on hover, at any size.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/hover-stroke-draw-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/hover-stroke-draw-button.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/hover-stroke-draw-button",
+        "prompt": "prompts/hover-stroke-draw-button.md"
+      }
+    },
+    {
+      "name": "sundial-shadow-heading",
+      "type": "registry:component",
+      "title": "Sundial Shadow Heading",
+      "description": "A heading whose letters cast soft shadows that swing like a sundial as the page scrolls: the sun crosses with the scroll, the long shadows turn from right to left, and a faint warm band of light slides across the ink.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/sundial-shadow-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/sundial-shadow-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "modern-minimal"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/sundial-shadow-heading",
+        "prompt": "prompts/sundial-shadow-heading.md"
+      }
+    },
+    {
+      "name": "swatch-fan-deck",
+      "type": "registry:component",
+      "title": "Swatch Fan Deck",
+      "description": "A fan deck of paint chips that spreads in your hand on hover or focus — a real radio group, with arrow keys and the colour's name, not its hex.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/swatch-fan-deck.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/swatch-fan-deck.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/swatch-fan-deck",
+        "prompt": "prompts/swatch-fan-deck.md"
+      }
+    },
+    {
+      "name": "swipe-card-stack",
+      "type": "registry:component",
+      "title": "Swipe Card Stack",
+      "description": "A draggable deck of cards you flick away to cycle through, Tinder-style.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/swipe-card-stack.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/swipe-card-stack.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/swipe-card-stack",
+        "prompt": "prompts/swipe-card-stack.md"
+      }
+    },
+    {
+      "name": "taffy-pill-nav",
+      "type": "registry:component",
+      "title": "Taffy Pill Nav",
+      "description": "A floating pill nav whose bubblegum marker stretches like taffy to the link you choose: long and thin in flight, short and fat as it lands, with the labels turning paper exactly where it covers them.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/taffy-pill-nav.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/taffy-pill-nav.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "tactile-maximalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/taffy-pill-nav",
+        "prompt": "prompts/taffy-pill-nav.md"
+      }
+    },
+    {
+      "name": "testimonial-carousel",
+      "type": "registry:component",
+      "title": "Testimonial Carousel",
+      "description": "An auto-advancing quote carousel with directional slide transitions.",
+      "dependencies": [
+        "framer-motion",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/testimonial-carousel.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/testimonial-carousel.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/testimonial-carousel",
+        "prompt": "prompts/testimonial-carousel.md"
+      }
+    },
+    {
+      "name": "theme-toggle-sun-moon-morph",
+      "type": "registry:component",
+      "title": "Theme Toggle Sun Moon Morph",
+      "description": "A track+thumb switch whose icon morphs between a sun and a crescent moon.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/theme-toggle-sun-moon-morph.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/theme-toggle-sun-moon-morph.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/theme-toggle-sun-moon-morph",
+        "prompt": "prompts/theme-toggle-sun-moon-morph.md"
+      }
+    },
+    {
+      "name": "tilt-card",
+      "type": "registry:component",
+      "title": "Tilt Card",
+      "description": "A 3D card that tilts toward the cursor with spring physics.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/tilt-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/tilt-card.tsx"
+        }
+      ],
+      "categories": [
+        "components"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/tilt-card",
+        "prompt": "prompts/tilt-card.md"
+      }
+    },
+    {
+      "name": "toast-stack",
+      "type": "registry:component",
+      "title": "Toast Notification Stack",
+      "description": "A queue of toast notifications that stack, reflow, and auto-dismiss independently.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/toast-stack.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/toast-stack.tsx"
+        }
+      ],
+      "categories": [
+        "patterns"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/toast-stack",
+        "prompt": "prompts/toast-stack.md"
+      }
+    },
+    {
+      "name": "typewriter-text",
+      "type": "registry:component",
+      "title": "Typewriter Text",
+      "description": "Text that types itself out character by character, then cycles to the next phrase.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/typewriter-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/typewriter-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/typewriter-text",
+        "prompt": "prompts/typewriter-text.md"
+      }
+    },
+    {
+      "name": "veil-resolve-heading",
+      "type": "registry:component",
+      "title": "Veil Resolve Heading",
+      "description": "A serif heading that arrives out of soft light: each word condenses from a blur into focus with an 80ms stagger while a glow blooms behind the words and fades as they sharpen.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/veil-resolve-heading.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/veil-resolve-heading.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "diffused-glow"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/veil-resolve-heading",
+        "prompt": "prompts/veil-resolve-heading.md"
+      }
+    },
+    {
+      "name": "velocity-marquee-rail",
+      "type": "registry:component",
+      "title": "Velocity Marquee Rail",
+      "description": "A marquee that accelerates with scroll speed and flips direction when you scroll back.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/velocity-marquee-rail.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/velocity-marquee-rail.tsx"
+        }
+      ],
+      "categories": [
+        "animations"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/velocity-marquee-rail",
+        "prompt": "prompts/velocity-marquee-rail.md"
+      }
+    },
+    {
+      "name": "vertical-timeline-reveal",
+      "type": "registry:component",
+      "title": "Vertical Timeline Reveal",
+      "description": "A scroll-triggered vertical timeline whose dots and cards reveal in sequence.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "files": [
+        {
+          "path": "components/vertical-timeline-reveal.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/vertical-timeline-reveal.tsx"
+        }
+      ],
+      "categories": [
+        "sections"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/vertical-timeline-reveal",
+        "prompt": "prompts/vertical-timeline-reveal.md"
+      }
+    },
+    {
+      "name": "wake-time-wheel",
+      "type": "registry:component",
+      "title": "Wake Time Wheel",
+      "description": "Set the alarm on a pair of wheels: hours and minutes are snap-scrolling columns with momentum whose rows turn away in perspective around a lens, each a keyboard spinbutton, with the time the sunrise starts beneath.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/wake-time-wheel.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/wake-time-wheel.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "modern-minimal"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/wake-time-wheel",
+        "prompt": "prompts/wake-time-wheel.md"
+      }
+    },
+    {
+      "name": "warning-tape-footer",
+      "type": "registry:component",
+      "title": "Warning Tape Footer",
+      "description": "A neo-brutalist footer under a strip of hazard tape you can grab and throw on its slow 48-second crawl, a sign-up that stamps the tape, and a giant wordmark whose letters press down onto their own ink plates.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/warning-tape-footer.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/warning-tape-footer.tsx"
+        }
+      ],
+      "categories": [
+        "sections",
+        "brutalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/warning-tape-footer",
+        "prompt": "prompts/warning-tape-footer.md"
+      }
+    },
+    {
+      "name": "weight-press-button",
+      "type": "registry:component",
+      "title": "Weight Press Button",
+      "description": "A button whose press you can see in its type: hover and the label thickens as the button lifts; press and it goes bold under your finger while the button sinks and its shadow collapses to the contact line, then springs back.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/weight-press-button.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/weight-press-button.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "modern-minimal"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/weight-press-button",
+        "prompt": "prompts/weight-press-button.md"
+      }
+    },
+    {
+      "name": "weight-slam-text",
+      "type": "registry:component",
+      "title": "Weight Slam Text",
+      "description": "Display type whose weight slams instead of easing: letters jump 400 → 650 → 900 in two hard steps, left to right like a row of stamps, and let go in three.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/weight-slam-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/weight-slam-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "brutalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/weight-slam-text",
+        "prompt": "prompts/weight-slam-text.md"
+      }
+    },
+    {
+      "name": "weight-wave-text",
+      "type": "registry:component",
+      "title": "Weight Wave Text",
+      "description": "Per-character variable font weight that swells around the pointer and drifts when idle.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/weight-wave-text.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/weight-wave-text.tsx"
+        }
+      ],
+      "categories": [
+        "text-effects",
+        "kinetic-type"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/weight-wave-text",
+        "prompt": "prompts/weight-wave-text.md"
+      }
+    },
+    {
+      "name": "widget-reorder-input",
+      "type": "registry:component",
+      "title": "Widget Reorder Input",
+      "description": "A \"customise your dashboard\" panel: drag or keyboard reorder, show and hide switches, a live miniature of the result, and save, cancel and reset.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/widget-reorder-input.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/widget-reorder-input.tsx"
+        }
+      ],
+      "categories": [
+        "patterns",
+        "bento"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/widget-reorder-input",
+        "prompt": "prompts/widget-reorder-input.md"
+      }
+    },
+    {
+      "name": "window-light-drift",
+      "type": "registry:component",
+      "title": "Window Light Drift",
+      "description": "Afternoon sun through a window, crossing a plaster wall over ninety seconds — and your pointer casts a shadow in it.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/window-light-drift.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/window-light-drift.tsx"
+        }
+      ],
+      "categories": [
+        "backgrounds"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/window-light-drift",
+        "prompt": "prompts/window-light-drift.md"
+      }
+    },
+    {
+      "name": "wobble-drop-card",
+      "type": "registry:component",
+      "title": "Wobble Drop Card",
+      "description": "A release card that leans toward the pointer on a soft spring while the sticker on its corner follows through, swinging the other way and jiggling to a stop; press it and the card squashes onto its base and pops back.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/wobble-drop-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/wobble-drop-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "tactile-maximalism"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/wobble-drop-card",
+        "prompt": "prompts/wobble-drop-card.md"
+      }
+    },
+    {
+      "name": "z-swap-plate-card",
+      "type": "registry:component",
+      "title": "Z-Swap Plate Card",
+      "description": "A work card on the lattice: every third in a run breaks by the rule, two gutters out with the bracket, and hovering the card it overlaps lifts that card above it, the bracket going with the lift, in 240ms.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/z-swap-plate-card.tsx",
+          "type": "registry:component",
+          "target": "components/viberdy/z-swap-plate-card.tsx"
+        }
+      ],
+      "categories": [
+        "components",
+        "broken-grid"
+      ],
+      "meta": {
+        "demo": "https://viberdy.dev/library/z-swap-plate-card",
+        "prompt": "prompts/z-swap-plate-card.md"
+      }
+    }
+  ]
+}

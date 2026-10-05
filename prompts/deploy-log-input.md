@@ -1,0 +1,13 @@
+# Deploy Log Input: AI prompt
+
+Paste this into Cursor, Claude Code, v0, Lovable or Bolt to generate **Deploy Log Input** from scratch, or edit it first to restyle it. The finished code is [components/deploy-log-input.tsx](../components/deploy-log-input.tsx); the live demo is on [viberdy.dev](https://viberdy.dev/library/deploy-log-input?ref=github).
+
+````text
+Build a React + Tailwind form, `DeployLogInput({ label, placeholder, button, steps, done, note, onSubmit, accent, stepMs })`: one email field that answers with a streaming log.
+
+The field: a 14px-radius frame (dark translucent with backdrop blur, inset hairline that turns warm on error and accent while working or done) holding an input with an sr-only label, autocomplete email and aria-invalid/aria-describedby, and a white button inside. Submit: validate with a simple address pattern (else show a hint and aria-invalid); start a run (a counter ref, so a stale run bails after every await); show step 1, then reveal each further step every stepMs while onSubmit runs in parallel (start it immediately and attach a no-op catch so an early rejection is not unhandled). After the last step, await onSubmit: on rejection show its message and mark the step failed; on success wait a beat and append the done line with {email} replaced.
+
+The log: an ordered list with role="log" and aria-live polite, in mono, each line with a spinner (a ring with an accent top border, spinning) that becomes an accent check (or a warm cross on failure), inside a wrapper whose height eases to the list's measured height (ResizeObserver). While working, a third-width beam of light (transparent, accent, white, accent, transparent) runs along the top edge of the frame on a 2.2s loop. Keys are never printed on screen; say they arrive by email.
+
+Dark Precision grammar: ground #050505, surfaces #0b0b0d and #121215, hairlines white 6% at rest and 14% lit (drawn as inset box-shadows or SVG strokes, never border colours), ink white 92/60/38%, one cool accent used only as light (default #4fd1ff; mint #5ef2c1, amber #ffb45e, white #f2f4f7 or any #rrggbb, validated against /^#[0-9a-fA-F]{6}$/), Geist never heavier than 600 with tight tracking, Geist Mono only for captions and data, fonts through CSS variables with fallbacks (var(--font-sans, "Geist", ...)). Morphs use cubic-bezier(0.16, 1, 0.3, 1); ambient loops are 30s or slower. Keyframes live in a small static <style> the component renders itself (nothing interpolated into it; the accent reaches it as --dp-accent and --dp-accent-rgb variables), plus a focus ring rule scoped to a .dp-scope class with border-radius: revert-layer. Respect prefers-reduced-motion. No dependencies beyond React.
+````

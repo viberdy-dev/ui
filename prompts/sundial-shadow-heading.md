@@ -1,0 +1,11 @@
+# Sundial Shadow Heading: AI prompt
+
+Paste this into Cursor, Claude Code, v0, Lovable or Bolt to generate **Sundial Shadow Heading** from scratch, or edit it first to restyle it. The finished code is [components/sundial-shadow-heading.tsx](../components/sundial-shadow-heading.tsx); the live demo is on [viberdy.dev](https://viberdy.dev/library/sundial-shadow-heading?ref=github).
+
+````text
+Build a React + Tailwind heading, `SundialShadowHeading({ lines, as, progress, depth, className, style })`.
+
+Render the lines twice in the heading: an aria-hidden copy behind with transparent colour that carries the shadows, and the visible type on top with a gradient clipped to the text (ink with a faint warm #4a3a26 band 28% wide at var(--mm-sun)). On every scroll (no easing), v = how far the heading has come through the view (or the progress prop); the sun angle a = (v - 0.5) x 0.8 pi; the long shadow's length is (6 + 22 |sin a|) x depth, offset x = -sin(a) x length, y = 4 cos(a) + 3, blur 10 + 0.45 x length, alpha 0.1 + 0.06 |sin a|, after a contact shadow 0 1px 0.5px at 16%; --mm-sun = 100 - v x 100 %. Inter Tight 600 at -0.035em.
+
+Modern Minimal grammar: a paper-white room, ground #f5f5f2 (surfaces #ffffff that lift, a recessed well #ecebe6), ink #141412 at 92/60/38% (never grey-400 body copy), hairlines at 8% and 14%; one light, dawn #ffa64d, only ever as light (the lamp's glow, a lit state), never as a fill. Shadows come from one light above in two layers: a contact 0 1px 2px rgba(20,20,18,0.06) and an ambient 0 24px 48px -12px rgba(20,20,18,0.1), both falling the same way; a pressed thing loses the ambient, a lifted one widens it. Type: Inter Tight through var(--font-inter-tight, "Inter Tight", ...) for display at 600 with -0.035em tracking and 0.98 leading (tracking tightens only at display sizes), Geist for reading at 16-17px/1.55, Geist Mono uppercase at 11-12px for readouts. Radii 12px controls (pills for buttons), 20px cards, 28px media. Motion: scroll binds values directly with no easing (a value moves exactly with the scroll, like scrubbing film); discrete hover and press states take 150-260ms with a spring back past rest; ambient loops 40s or more. Respect prefers-reduced-motion (ambient scenes hold still; scroll-bound values still follow the scroll, which the visitor drives). No dependencies beyond React.
+````
